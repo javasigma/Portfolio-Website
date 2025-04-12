@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>IGUIDI Portfolio</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">IGUIDI Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">IGUIDI 李达</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about " onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">IGUIDI 李达</h1>
+        <p class="section__text__p2">AI Engineer,Software developeer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="/assets/instagram.png"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/ayayatek_ti_asnom?igsh=bTIzanJnbmc0eHZr'"
+            alt=""
+          />
+          <img
+            src="/assets/github.png"
+            class="icon"
+            onclick="location.href='https://github.com/javasigma'"
+            alt="instagram"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1"></p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            class="about-pic"
+            src="./assets/about-pic.jpg"
+            alt="Profile Picture"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                class="icon"
+                src="/assets/experience.png"
+                alt="Experience icon"
+              />
+              <h3>Experience</h3>
+              <p>     <a href="https://en.wikipedia.org/wiki/China_Jiliang_University"> China_Jiliang_University</a>
+                
+                
+                
+                <a  href="https://acm.cjlu.edu.cn/user/20231141">My Solved problems</a>
+                
+                
+                
+                <a href="https://leetcode.com/u/javasigmas/"> Leetcode profile </a><br> AI and Full-stack dev, 
+                Hello! My name is Mohamed Reda Iguidi , and I am a passionate and driven computer science student
+                currently enrolled at 中国计量大学 (China Jiliang University) in Hangzhou, China. 
+                I am pursuing a Bachelors degree in Computer Science with an outstanding GPA of 3.9 
+                reflecting my dedication to academic excellence and continuous learning.
+                As a Moroccan national living and studying in China, I have embraced diverse cultures 
+                and developed strong communication skills. I am fluent in French, Chinese (Mandarin), Arabic, and English, 
+                which allows me to collaborate effectively with people from all over the world. This multilingual ability
+                 has been invaluable in both my academic and professional pursuits,enabling me to bridge cultural and linguistic gaps.
+                This is my enrollent proof as a Computer Science student in CJLU add my dingtalk ID 钉钉号:
+                
+                15f_5jeysyajsx
+                
+                Here is my University ACM I solved 70+ Data Struvtures and 
+                 algorithms in languages like C and Java :
+                 I focused on ACM more than leetcode
+                 My hobbies are chess and table tenis.  Learn more about my University
+                 I am looking forward to any oppurtinity to be hired Please contact me if I shall provide 
+             any further Requirements or clarifications
+
+             
+            
+            </p>
+            </div>
+            <div class="details-container">
+              <img
+                class="icon"
+                src="/assets/education.png"
+                alt="Experience icon"
+              />
+              <h3>Education</h3>
+              <p> Sophomore<br />Bachelors Computer Science, 
+                Im Mohamed Reda Iguidi , a Computer Science student at 中国计量大学 (CJLU) in Hangzhou, 
+                with a GPA of 3.9 . Originally from Morocco , I am fluent in Arabic, French, English, and Chinese HSK5
+                which has allowed me to thrive in multicultural environments.
+                In my CS program, I have developed expertise in:
+                Java Object-Oriented Programming (OOP) : Mastered concepts like inheritance, polymorphism, and encapsulation,
+                applying them to build scalable applications such as a task management system .
+                Spring Framework : Built RESTful APIs and web applications using Spring Boot , 
+                integrating features like dependency injection, security, and database connectivity for efficient backend development.
+                Discrete Mathematics : Strengthened my problem-solving skills through logic, set theory, and graph algorithms,
+                which I implemented in projects like pathfinding solutions.
+                Calculus : Applied mathematical modeling and optimization techniques to real-world problems, including robotics motion planning.
+                Robotics : Worked on robotics projects using sensors, microcontrollers, and algorithms for autonomous navigation, 
+                enhancing my understanding of hardware-software integration.
+                Additionally, I have excelled in web development (HTML, CSS, JavaScript, React, Node.js) and database systems (SQL/NoSQL) ,
+                 creating full-stack projects like an e-commerce platform and a personal portfolio website .
+                My academic journey and multilingual background have shaped me into a versatile problem-solver, ready to tackle complex challenges in technology.</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assets/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+        alt=""
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1"></p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Intermediate Level</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  class="icon"
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Leetcode </a></h3>
+                  <p>Data structure,Algorithms</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>AZURE </h3>
+                  <p>Cloud</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Frontend</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Pytorch</h3>
+                  <p>Machine Learning</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h5>Binary,Assembly,C/C++</h5>
+                  <p>Computer Organiztion</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Mysql</h3>
+                  <p>DataBase</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Experienced level</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  class="icon"
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                    <h3>High School</h3>
+                    <p>Math,Physics,
+                 Geograophy, biology...</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                    <h3>Spring </h3>
+                    <p>Backend framework</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                    <h3>Git</h3>
+                    <p>Version control,APIS</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                    <h3>languages</h3>
+                    <p>Arabic, Chinese, 
+                      English, French
+                    </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+              <h3>Prompt Engineering</h3>
+                  <p>LLMS, Qwen2.5-Max</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assets/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        alt=""
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title"> Mobilephone Store ManagementSystem</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/javasigma/Mobile-phone-Store-management-System'"
+              >
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">QuizGame</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/javasigma/QuizGame'"
+              >
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Spring Social Media App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/javasigma'"
+              >
+                GitHub
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assets/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        alt=""
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Phone number (+86)</p>
+      <h1 class="title">18667128510</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="/assets/email.png"
+            class="icon contact-icon"
+            alt="Email icon"
+          />
+          <p><a href="example@gmail.com">promote.port@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="/assets/email.png"
+            class="icon contact-icon"
+            alt="Email icon"
+          />
+          <p><a href="https://www.instagram.com/ayayatek_ti_asnom?igsh=bTIzanJnbmc0eHZr">Instagram</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 IGUIDI 李达. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
