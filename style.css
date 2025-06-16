@@ -274,18 +274,18 @@ a,
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 9rem;
 }
 
 article {
-  width: 40rem;
+  width: 24rem;
 }
 
 /* PROJECTS SECTION */
 
 .project-img {
   width: 90%;
-  height: 90%;
+  height: 110%;
 }
 
 .color-container,
