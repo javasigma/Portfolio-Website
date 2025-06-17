@@ -1,5 +1,4 @@
 /* GENERAL */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
@@ -12,8 +11,8 @@ body {
 }
 
 html {
-    background-color: wheat;
-    scroll-behavior: smooth;
+  background-color: wheat;
+  scroll-behavior: smooth;
 }
 
 p,
@@ -22,7 +21,6 @@ p,
 }
 
 /* FLEXED ELEMENTS */
-
 article,
 nav,
 #contact,
@@ -75,7 +73,6 @@ nav,
 }
 
 /* NAVBAR */
-
 a,
 .project-btn,
 .project-title {
@@ -90,12 +87,12 @@ a {
 a:hover {
   color: gray;
   text-decoration: underline;
-  text-underline-offset: 1rem;
+  text-underline-offset: 0.5rem;
   text-decoration-color: rgb(181, 181, 181);
 }
 
 nav {
-  height: 17vh;
+  height: 12vh;
 }
 
 .logo {
@@ -104,11 +101,10 @@ nav {
 
 .nav-links {
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 /* SECTIONS */
-
 #about,
 #experience,
 #projects {
@@ -116,56 +112,51 @@ nav {
 }
 
 section {
-  padding-top: 4vh;
-  height: 93vh;
-  margin: 0 10rem;
+  padding-top: 3vh;
+  height: auto;
+  margin: 0 5rem;
 }
 
 .section-container,
 .about-containers {
   margin-top: 2rem;
+  gap: 2rem;
 }
 
+.experience-details-container,
 .section-container {
-  gap: 4rem;
-}
-
-.section-container,
-.experience-details-container {
-  height: 80%;
+  height: auto;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
 }
 
-.btn,
-.experience-sub-title,
 .section__text p,
-.title {
+.btn {
   font-weight: 600;
 }
 
 footer p,
 .details-container,
 .section__text__p1,
-.section__text,
-.title {
+.section__text {
   text-align: center;
 }
 
 /* TRANSITIONS */
-
 a,
 .btn {
   transition: all 300ms ease;
 }
 
 /* BUTTONS */
-
 .btn {
-  padding: 1rem;
-  width: 8rem;
+  padding: 0.75rem 1.25rem;
+  width: fit-content;
+  font-size: 1rem;
 }
 
 .about-pic,
@@ -173,7 +164,7 @@ a,
 .contact-info-upper-container,
 .details-container,
 .project-img {
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 
 .btn-color-1,
@@ -213,10 +204,9 @@ a,
 }
 
 /* PROFILE SECTION */
-
 #profile {
-  gap: 5rem;
-  height: 80vh;
+  gap: 3rem;
+  padding-top: 2rem;
 }
 
 .section__text {
@@ -225,13 +215,13 @@ a,
 
 .experience-sub-title,
 .section__text__p2 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .section__pic-container {
-  height: 400px;
-  width: 400px;
+  height: 280px;
+  width: 280px;
   margin: auto 0;
 }
 
@@ -240,14 +230,13 @@ a,
 }
 
 /* ABOUT SECTION */
-
 .about-containers,
 .experience-sub-title {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
 }
 
@@ -259,33 +248,31 @@ a,
 }
 
 .icon {
-  height: 2rem;
+  height: 1.5rem;
 }
 
 .arrow {
   position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+  right: -3rem;
+  bottom: 2rem;
 }
 
-/* EXPERIENCE SECTIION */
-
+/* EXPERIENCE SECTION */
 .article-container {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 9rem;
+  gap: 3rem;
 }
 
 article {
-  width: 24rem;
+  width: 18rem;
 }
 
 /* PROJECTS SECTION */
-
 .project-img {
-  width: 90%;
-  height: 110%;
+  width: 100%;
+  height: auto;
 }
 
 .color-container,
@@ -295,14 +282,14 @@ article {
 }
 
 /* CONTACT SECTION */
-
 .contact-info-upper-container {
   margin: 2rem auto;
   padding: 0.5rem;
 }
 
 #contact {
-  height: 70vh;
+  height: auto;
+  padding-bottom: 2rem;
 }
 
 .contact-info-container,
@@ -316,7 +303,7 @@ article {
 }
 
 .contact-info-container p {
-  font-size: larger;
+  font-size: 1rem;
 }
 
 article .icon,
@@ -326,14 +313,13 @@ article .icon,
 }
 
 /* FOOTER SECTION */
-
 footer {
-  height: 26vh;
+  height: auto;
   margin: 0 1rem;
+  padding: 2rem 0;
 }
 
 /* HAMBURGER MENU */
-
 #hamburger-nav {
   display: none;
 }
@@ -372,9 +358,9 @@ footer {
 
 .menu-links a {
   display: block;
-  padding: 10px;
+  padding: 0.75rem 1rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: black;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -400,7 +386,8 @@ footer {
   transform: rotate(-45deg) translate(10px, -5px);
 }
 
-.hamburger-icon span:first-child {
+.hamburger-icon span:first-child,
+.hamburger-icon span:last-child {
   transform: none;
 }
 
@@ -408,6 +395,3 @@ footer {
   opacity: 1;
 }
 
-.hamburger-icon span:last-child {
-  transform: none;
-}
